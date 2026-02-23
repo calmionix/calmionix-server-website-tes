@@ -1,1 +1,74 @@
- 
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calmionix SMP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <img src="assets/logo.png" class="logo">
+    <span>Calmionix SMP</span>
+  </div>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+</nav>
+
+<div class="sidebar" id="sidebar">
+  <a href="#home">Beranda</a>
+  <a href="#event">Event</a>
+  <a href="#rank">Rank</a>
+  <a href="#topup">Top Up</a>
+</div>
+
+<header class="hero" id="home">
+  <h1>Calmionix SMP</h1>
+  <p>Dungeon • Economy • Gacha • Custom World</p>
+</header>
+
+<section id="event">
+  <h2>Event Server</h2>
+  <div class="card">
+    <h3>Ramadhan Event</h3>
+    <p>Berakhir dalam:</p>
+    <div id="countdown"></div>
+  </div>
+</section>
+
+<section id="rank">
+  <h2>Rank Store</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>VIP - Rp25.000</h3>
+      <p>/fly • /feed • Prefix VIP</p>
+      <button class="btn">Beli</button>
+    </div>
+
+    <div class="card">
+      <h3>MVP - Rp50.000</h3>
+      <p>Semua VIP + /heal</p>
+      <button class="btn">Beli</button>
+    </div>
+  </div>
+</section>
+
+<section id="topup">
+  <h2>Top Up Money</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>10K = 100.000 Money</h3>
+      <button class="btn">Top Up</button>
+    </div>
+
+    <div class="card">
+      <h3>50K = 700.000 Money</h3>
+      <button class="btn">Top Up</button>
+    </div>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
